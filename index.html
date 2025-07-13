@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>영재의 자질 방탈출 게임</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="laptop" class="clickable-object" title="노트북 화면"></div>
+    <div id="clock" class="clickable-object" title="시계"></div>
+    <div id="memo" class="clickable-object" title="칠판 메모지"></div>
+    <div id="door" class="clickable-object" title="교실문"></div>
+    <div id="poster" class="clickable-object" title="포스터"></div>
+  </div>
+
+  <button id="hint-button">수집한 숫자 보기</button>
+
+  <div id="modal" class="modal hidden"></div>
+  <div id="message-modal" class="modal hidden"></div>
+
+  <!-- 반드시 body 끝에 위치 -->
+  <script src="script.js"></script>
+</body>
+</html>
